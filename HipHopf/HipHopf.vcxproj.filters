@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>68081325-6d89-4b65-b145-68fe4a90f893</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>8d458c8e-77b4-4755-bb83-cccf1b6a5b04</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>6ba5c2b0-6c28-4834-8f4d-a70f4215a237</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="D2D1">
+      <UniqueIdentifier>{b27df9f3-9266-429b-9f84-a5c384ee8bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{c362cbd5-971a-4c0e-934a-18d50186e42a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mikktspace">
+      <UniqueIdentifier>{bc52be32-5ba3-46ff-bab1-375a58ec0090}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Content\gv_D3D11_KMI.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\gv_D3D11_Resources.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\gv_Hopfbrau.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\gv_MiniSphere.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\gv_SCENE_3D.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="D2D1\gv_D2D1.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="D2D1\gv_HUD.cpp">
+      <Filter>D2D1</Filter>
+    </ClCompile>
+    <ClCompile Include="GVMain.cpp" />
+    <ClCompile Include="Content\gv_PTFGrid.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendedSplash.xaml.cpp" />
+    <ClCompile Include="mikktspace\mikktspace.c">
+      <Filter>mikktspace</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Content\gv_Hopfbrau.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\gv_SCENE_3D.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="D2D1\gv_D2D1.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="D2D1\gv_HUD.h">
+      <Filter>D2D1</Filter>
+    </ClInclude>
+    <ClInclude Include="gv_ADJUSTABLE.h" />
+    <ClInclude Include="GVMain.h" />
+    <ClInclude Include="ExtendedSplash.xaml.h" />
+    <ClInclude Include="mikktspace\mikktspace.h">
+      <Filter>mikktspace</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\S2sphere_bmp_mandelbrot_hue_252.bmp">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\S2sphere_png_mandelbrot_extrusion.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Loft_DDS_Pure_Fail.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Loft_png_ferrero_flat.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Pure_Geometry.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HipHopf_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\gv_MQuad_VertexShader.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\gv_MQuad_PixelShader.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\gv_Loft_PixelShader.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\gv_Loft_VertexShader.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\gv_INode_PixelShader.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\gv_INode_VertexShader.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ExtendedSplash.xaml" />
+  </ItemGroup>
+</Project>
