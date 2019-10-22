@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="HipHopf_TemporaryKey.pfx" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="HLSL\gv_MQuad_VertexShader.hlsl">
